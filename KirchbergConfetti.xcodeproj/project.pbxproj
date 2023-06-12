@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3DA25D32A376151000F74DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DA25D22A376151000F74DB /* AppDelegate.swift */; };
+		B3DA25D52A376151000F74DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DA25D42A376151000F74DB /* SceneDelegate.swift */; };
+		B3DA25D72A376151000F74DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DA25D62A376151000F74DB /* ViewController.swift */; };
+		B3DA25DA2A376151000F74DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DA25D82A376151000F74DB /* Main.storyboard */; };
+		B3DA25DC2A376152000F74DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3DA25DB2A376152000F74DB /* Assets.xcassets */; };
+		B3DA25DF2A376152000F74DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DA25DD2A376152000F74DB /* LaunchScreen.storyboard */; };
+		B3DA25E82A376178000F74DB /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DA25E72A376178000F74DB /* ConfettiView.swift */; };
+		B3DA25EA2A37619E000F74DB /* ConfettiEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DA25E92A37619E000F74DB /* ConfettiEmitter.swift */; };
+		B3DA25EC2A3761C7000F74DB /* ConfettiLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DA25EB2A3761C7000F74DB /* ConfettiLayer.swift */; };
+		B3DA25EE2A376202000F74DB /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DA25ED2A376202000F74DB /* GradientButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B3DA25CF2A376151000F74DB /* KirchbergConfetti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KirchbergConfetti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3DA25D22A376151000F74DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3DA25D42A376151000F74DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B3DA25D62A376151000F74DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3DA25D92A376151000F74DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3DA25DB2A376152000F74DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3DA25DE2A376152000F74DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3DA25E02A376152000F74DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3DA25E72A376178000F74DB /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		B3DA25E92A37619E000F74DB /* ConfettiEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiEmitter.swift; sourceTree = "<group>"; };
+		B3DA25EB2A3761C7000F74DB /* ConfettiLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiLayer.swift; sourceTree = "<group>"; };
+		B3DA25ED2A376202000F74DB /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3DA25CC2A376151000F74DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3DA25C62A376151000F74DB = {
+			isa = PBXGroup;
+			children = (
+				B3DA25D12A376151000F74DB /* KirchbergConfetti */,
+				B3DA25D02A376151000F74DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3DA25D02A376151000F74DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3DA25CF2A376151000F74DB /* KirchbergConfetti.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3DA25D12A376151000F74DB /* KirchbergConfetti */ = {
+			isa = PBXGroup;
+			children = (
+				B3DA25E62A376164000F74DB /* Confetti */,
+				B3DA25D22A376151000F74DB /* AppDelegate.swift */,
+				B3DA25D42A376151000F74DB /* SceneDelegate.swift */,
+				B3DA25ED2A376202000F74DB /* GradientButton.swift */,
+				B3DA25D62A376151000F74DB /* ViewController.swift */,
+				B3DA25D82A376151000F74DB /* Main.storyboard */,
+				B3DA25DB2A376152000F74DB /* Assets.xcassets */,
+				B3DA25DD2A376152000F74DB /* LaunchScreen.storyboard */,
+				B3DA25E02A376152000F74DB /* Info.plist */,
+			);
+			path = KirchbergConfetti;
+			sourceTree = "<group>";
+		};
+		B3DA25E62A376164000F74DB /* Confetti */ = {
+			isa = PBXGroup;
+			children = (
+				B3DA25E72A376178000F74DB /* ConfettiView.swift */,
+				B3DA25E92A37619E000F74DB /* ConfettiEmitter.swift */,
+				B3DA25EB2A3761C7000F74DB /* ConfettiLayer.swift */,
+			);
+			path = Confetti;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3DA25CE2A376151000F74DB /* KirchbergConfetti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3DA25E32A376152000F74DB /* Build configuration list for PBXNativeTarget "KirchbergConfetti" */;
+			buildPhases = (
+				B3DA25CB2A376151000F74DB /* Sources */,
+				B3DA25CC2A376151000F74DB /* Frameworks */,
+				B3DA25CD2A376151000F74DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KirchbergConfetti;
+			productName = KirchbergConfetti;
+			productReference = B3DA25CF2A376151000F74DB /* KirchbergConfetti.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3DA25C72A376151000F74DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B3DA25CE2A376151000F74DB = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = B3DA25CA2A376151000F74DB /* Build configuration list for PBXProject "KirchbergConfetti" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3DA25C62A376151000F74DB;
+			productRefGroup = B3DA25D02A376151000F74DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3DA25CE2A376151000F74DB /* KirchbergConfetti */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3DA25CD2A376151000F74DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DA25DF2A376152000F74DB /* LaunchScreen.storyboard in Resources */,
+				B3DA25DC2A376152000F74DB /* Assets.xcassets in Resources */,
+				B3DA25DA2A376151000F74DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3DA25CB2A376151000F74DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DA25EE2A376202000F74DB /* GradientButton.swift in Sources */,
+				B3DA25E82A376178000F74DB /* ConfettiView.swift in Sources */,
+				B3DA25D72A376151000F74DB /* ViewController.swift in Sources */,
+				B3DA25EA2A37619E000F74DB /* ConfettiEmitter.swift in Sources */,
+				B3DA25D32A376151000F74DB /* AppDelegate.swift in Sources */,
+				B3DA25D52A376151000F74DB /* SceneDelegate.swift in Sources */,
+				B3DA25EC2A3761C7000F74DB /* ConfettiLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3DA25D82A376151000F74DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3DA25D92A376151000F74DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3DA25DD2A376152000F74DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3DA25DE2A376152000F74DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3DA25E12A376152000F74DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3DA25E22A376152000F74DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3DA25E42A376152000F74DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 365XM372YQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KirchbergConfetti/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kirchberg.KirchbergConfetti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3DA25E52A376152000F74DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 365XM372YQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KirchbergConfetti/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kirchberg.KirchbergConfetti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3DA25CA2A376151000F74DB /* Build configuration list for PBXProject "KirchbergConfetti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3DA25E12A376152000F74DB /* Debug */,
+				B3DA25E22A376152000F74DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3DA25E32A376152000F74DB /* Build configuration list for PBXNativeTarget "KirchbergConfetti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3DA25E42A376152000F74DB /* Debug */,
+				B3DA25E52A376152000F74DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3DA25C72A376151000F74DB /* Project object */;
+}
