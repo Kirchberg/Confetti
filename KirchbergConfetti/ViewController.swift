@@ -49,6 +49,6 @@ class ViewController: UIViewController {
         print("Button tapped!")
     }
 
-    private let confetti: ConfettiView = .default
+    private let confetti: ConfettiView = .bottom
 
 }

@@ -72,12 +72,6 @@ public final class ConfettiView: UIView {
         }
     }
 
-    // MARK: - Private Types
-
-    private enum Static {
-        static let fadeOutAnimationKey = "confitti.fadeOut.animation"
-    }
-
     // MARK: - Private Properties
 
     private let emitters: [ConfettiEmitter]
@@ -152,8 +146,38 @@ public final class ConfettiView: UIView {
 
 extension ConfettiView {
 
-    public static let `default` = ConfettiView(
-        emitters: [
+    public static let top = ConfettiView(
+        emitters: Static.defaultEmitters,
+        direction: .top,
+        animation: .default
+    )
+
+    public static let left = ConfettiView(
+        emitters: Static.defaultEmitters,
+        direction: .left,
+        animation: .default
+    )
+
+    public static let right = ConfettiView(
+        emitters: Static.defaultEmitters,
+        direction: .left,
+        animation: .default
+    )
+
+    public static let bottom = ConfettiView(
+        emitters: Static.defaultEmitters,
+        direction: .bottom,
+        animation: .default
+    )
+
+    public static let leftRight = ConfettiView(
+        emitters: Static.defaultEmitters,
+        direction: .leftRight,
+        animation: .default
+    )
+
+    private enum Static {
+        static let defaultEmitters: [ConfettiEmitter] = [
             .shape(.rectangle, color: .systemRed),
             .shape(.rectangle, color: .systemPink),
             .shape(.rectangle, color: .systemYellow),
@@ -166,22 +190,7 @@ extension ConfettiView {
             .shape(.circle, color: .systemTeal),
             .shape(.circle, color: .systemBlue),
             .shape(.circle, color: .systemGreen)
-        ],
-        direction: .leftRight,
-        animation: .default
-    )
-
-}
-
-// MARK: - CAAnimationDelegate
-
-extension ConfettiView: CAAnimationDelegate {
-
-    public func animationDidStop(_ animation: CAAnimation, finished flag: Bool) {
-        if let layer = animation.value(forKey: Static.fadeOutAnimationKey) as? CALayer {
-            layer.removeAllAnimations()
-            layer.removeFromSuperlayer()
-        }
+        ]
     }
 
 }
