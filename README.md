@@ -1,6 +1,6 @@
 # Confetti
 
-<img src="https://github.com/Kirchberg/Confetti/blob/master/Media/thumb.jpg?raw=true" alt="Confetti Thumbnail"/>
+<img src="https://github.com/Kirchberg/Confetti/blob/master/Media/thumb.png?raw=true" alt="Confetti Thumbnail"/>
 
 Confetti is a comprehensive and customizable confetti view for iOS, built with Swift and UIKit. The set of views allows developers to easily integrate a dynamic confetti effect into their applications, enhancing interactivity and adding a festive mood to the user experience.
 
