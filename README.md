@@ -13,6 +13,9 @@ Confetti is a comprehensive and customizable confetti view for iOS, built with S
 ## Notes
 While the views in Confetti are easy-to-use, they also offer a high degree of flexibility, catering to most confetti-related use cases. You might wish to extend or adapt them according to your specific requirements.
 
+## Example
+https://github.com/Kirchberg/Confetti/assets/37106274/58586bf3-14f9-441b-8743-6c0cf0974082
+
 ## License
 
 Licensed under the [MIT license](https://github.com/Kirchberg/Confetti/blob/master/LICENSE). See the LICENSE file for more info.
