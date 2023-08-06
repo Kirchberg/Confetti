@@ -16,7 +16,6 @@ public final class ConfettiView: UIView {
         case right
         case top
         case bottom
-        case leftRight
     }
 
     public enum Animation {
@@ -58,9 +57,6 @@ public final class ConfettiView: UIView {
             emitTop(emitters, animation: animation)
         case .bottom:
             emitBottom(emitters, animation: animation)
-        case .leftRight:
-            emitLeft(emitters, animation: animation)
-            emitRight(emitters, animation: animation)
         }
     }
 
@@ -167,12 +163,6 @@ extension ConfettiView {
     public static let bottom = ConfettiView(
         emitters: Static.defaultEmitters,
         direction: .bottom,
-        animation: .default
-    )
-
-    public static let leftRight = ConfettiView(
-        emitters: Static.defaultEmitters,
-        direction: .leftRight,
         animation: .default
     )
 

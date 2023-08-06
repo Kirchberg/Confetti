@@ -12,10 +12,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let myButton = GradientButton(type: .system)
+        let myButton = UIButton(type: .system)
 
         myButton.setTitle("Tap on me", for: .normal)
-        myButton.setTitleColor(UIColor.white, for: .normal)
 
         confetti.translatesAutoresizingMaskIntoConstraints = false
         myButton.translatesAutoresizingMaskIntoConstraints = false
@@ -49,6 +48,6 @@ class ViewController: UIViewController {
         print("Button tapped!")
     }
 
-    private let confetti: ConfettiView = .bottom
+    private let confetti: ConfettiView = .top
 
 }

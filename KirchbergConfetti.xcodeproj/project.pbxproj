@@ -16,7 +16,6 @@
 		B3DA25E82A376178000F74DB /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DA25E72A376178000F74DB /* ConfettiView.swift */; };
 		B3DA25EA2A37619E000F74DB /* ConfettiEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DA25E92A37619E000F74DB /* ConfettiEmitter.swift */; };
 		B3DA25EC2A3761C7000F74DB /* ConfettiLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DA25EB2A3761C7000F74DB /* ConfettiLayer.swift */; };
-		B3DA25EE2A376202000F74DB /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DA25ED2A376202000F74DB /* GradientButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		B3DA25E72A376178000F74DB /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
 		B3DA25E92A37619E000F74DB /* ConfettiEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiEmitter.swift; sourceTree = "<group>"; };
 		B3DA25EB2A3761C7000F74DB /* ConfettiLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiLayer.swift; sourceTree = "<group>"; };
-		B3DA25ED2A376202000F74DB /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +65,6 @@
 				B3DA25E62A376164000F74DB /* Confetti */,
 				B3DA25D22A376151000F74DB /* AppDelegate.swift */,
 				B3DA25D42A376151000F74DB /* SceneDelegate.swift */,
-				B3DA25ED2A376202000F74DB /* GradientButton.swift */,
 				B3DA25D62A376151000F74DB /* ViewController.swift */,
 				B3DA25D82A376151000F74DB /* Main.storyboard */,
 				B3DA25DB2A376152000F74DB /* Assets.xcassets */,
@@ -158,7 +155,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3DA25EE2A376202000F74DB /* GradientButton.swift in Sources */,
 				B3DA25E82A376178000F74DB /* ConfettiView.swift in Sources */,
 				B3DA25D72A376151000F74DB /* ViewController.swift in Sources */,
 				B3DA25EA2A37619E000F74DB /* ConfettiEmitter.swift in Sources */,
